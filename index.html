@@ -6,9 +6,147 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+</style>
 
 </head>
-<body>
+<body class="font-lato" >
+    <header>
+        <nav>
+
+
+        </nav>
+    </header>
+    <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-8 m-5 ">
+        <!-- banner section -->
+        <section class="reltive">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                 
+                    
+                    
+                    <img src="./images/banner1.png" class="w-full" />
+                
+                
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+              <!-- relativepart -->
+              <div class=" lg:flex  lg:flex-row lg:justify-center lg:w-3/4 mx-auto lg:gap-16 lg:bg-white lg:rounded-lg relative bottom-20  lg:py-12 lg:px-16 drop-shadow-sm hidden ">
+                <div class="text-center">
+                    <img src="./images/fruit1.png" alt="">
+                    <h6>Strawberry</h6>
+                </div>
+                <div class="text-center">
+                    <img src="./images/fruit2.png" alt="">
+                    <h6>Orange</h6>
+                </div>
+                <div class="text-center">
+                    <img src="./images/fruit3.png" alt="">
+                    <h6>mango</h6>
+                </div>
+                <div class="text-center">
+                    <img src="./images/fruit4.png" alt="">
+                    <h6>Strawberry</h6>
+                </div>
+                <div class="text-center">
+                    <img src="./images/fruit5.png" alt="">
+                    <h6>mango</h6>
+                </div>
+                
+    
+    
+    
+    
+              </div>
+    
+
+        </section>
+        <!-- team section -->
+        <section >
+
+            <div class="hero min-h-screen " style="background-image: url(./images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="mx-auto" >
+                    <h1 class="mb-5 text-5xl font-extrabold">Meet the team section</h1>
+                    <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+
+                     <div class="flex flex-col lg:flex-row justify-center  items-center mt-20  gap-28">
+                <div>
+                    <img src="./images/member1.png" alt="">
+                    <h2 class="font-bold text-xl "> Awlad Hossain</h2>
+                    <p>Fruits Expert</p>
+                </div>
+                <div >
+                    <img  src="./images/member2.png" alt="">
+                    <h2 class="font-bold text-lg ">Safia Chowdhury</h2>
+                    <p>Fruits Expert</p>
+                </div>
+                <div>
+                    <img  src="./images/member3.png" alt="">
+                    <h2 class="font-bold text-xl">Rokib Hossain</h2>
+                    <p>Fruits Expert</p>
+                </div>
+                <div>
+                    <img  src="./images/member4.png" alt="">
+                    <h2 class="font-bold text-xl">Chaity</h2>
+                    <p>Fruits Expert</p>
+                </div>
+
+
+
+
+            </div>
+                    
+                    
+                  </div>
+                  
+
+                </div>
+                
+              </div>
+             
+        </section>
+        
+
+         
+
+
+
+    </main>
     
 </body>
 </html>
